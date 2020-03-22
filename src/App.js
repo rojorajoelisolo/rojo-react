@@ -14,10 +14,10 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Route exact path="/" component={Accueil}></Route>
+        <Route exact path="/" component={GroupRockDetail}></Route>
         <Route path="/ui" component={TestMaterialUI}></Route>
         <Route path="/photos/:id" component={Photos}></Route>
-        <Route path="/rockers" component={GroupRockDetail}></Route>
+        <Route path="/accueil" component={Accueil}></Route>
         <Route path="/rock" component={GroupeRock} />
       </BrowserRouter>
     </div>
